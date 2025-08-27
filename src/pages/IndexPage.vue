@@ -54,7 +54,7 @@ export default {
             color: 'red-5',
             textColor: 'white',
             icon: 'warning',
-            message: 'คุณจำเป็นต้องยอมรับ'
+            message: 'You need to accept the license and terms first'
           })
         }
         else {
@@ -62,7 +62,7 @@ export default {
             color: 'green-4',
             textColor: 'white',
             icon: 'cloud_done',
-            message: 'ข้อมูลได้รับการยืนยัน'
+            message: 'Submitted'
           })
         }
       },
